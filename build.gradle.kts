@@ -10,7 +10,6 @@ plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.kotlin.qa)
-    alias(libs.plugins.npm.publish)
     alias(libs.plugins.publishOnCentral)
     alias(libs.plugins.taskTree)
 }
@@ -175,17 +174,6 @@ publishOnCentral {
                     }
                 }
             }
-        }
-    }
-}
-
-npmPublish {
-    registries {
-        register("npmjs") {
-            uri.set("https://registry.npmjs.org")
-            val npmToken: String? by project
-            authToken.set(npmToken)
-            dry.set(npmToken.isNullOrBlank())
         }
     }
 }
