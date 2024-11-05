@@ -4,8 +4,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
-    alias(libs.plugins.android.library)
-//    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.kotest.multiplatform)
     alias(libs.plugins.dokka)
@@ -24,20 +23,18 @@ repositories {
 }
 
 android {
-    namespace = "org.danilopianini"
-    compileSdk = 34
+    namespace = group.toString()
+    compileSdk = libs.versions.android.compileSdk.get().toInt()
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
-        minSdk = 21
+        minSdk = libs.versions.android.minSdk.get().toInt()
     }
 }
 
 kotlin {
-    androidTarget {
-        publishAllLibraryVariants()
-    }
-
     jvmToolchain(21)
+
+    androidTarget()
 
     jvm {
         testRuns["test"].executionTask.configure {
@@ -70,15 +67,12 @@ kotlin {
     js(IR) {
         browser()
         nodejs()
-        binaries.library()
-//        binaries.executable()
+        binaries.executable()
     }
 
     val nativeSetup: KotlinNativeTarget.() -> Unit = {
         binaries {
-//            executable()
-            sharedLib()
-            staticLib()
+            executable()
         }
     }
 
