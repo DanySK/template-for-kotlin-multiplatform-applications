@@ -42,7 +42,7 @@ jobs:
         id: compute-next-version
         uses: nicolasfara/precompute-semantic-release-version-action@2.0.2
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.DEPLOYMENT_TOKEN }}
       - uses: DanySK/build-check-deploy-gradle-action@3.5.12
         with:
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
@@ -152,7 +152,7 @@ jobs:
             npx semantic-release
           should-run-codecov: false
           should-deploy: true
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.DEPLOYMENT_TOKEN }}
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           maven-central-password: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
           npm-token: ${{ secrets.NPM_TOKEN }}
