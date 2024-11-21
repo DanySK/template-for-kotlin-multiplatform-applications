@@ -1,7 +1,7 @@
 [versions]
 android-plugins = "8.7.2"
 kotest = "5.9.1"
-kotlin = "2.0.10"
+kotlin = "2.0.21"
 android-minSdk = "24"
 android-compileSdk = "34"
 
