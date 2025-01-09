@@ -1,5 +1,5 @@
 [versions]
-android-plugins = "8.7.3"
+android-plugins = "8.8.0"
 kotest = "6.0.0.M1"
 kotlin = "2.0.21"
 android-minSdk = "24"
