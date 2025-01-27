@@ -1,3 +1,5 @@
+package org.danilopianini
+
 /**
  * The platform where the code is running.
  */

@@ -1,3 +1,5 @@
+package org.danilopianini
+
 /**
  * JS Platform.
  */

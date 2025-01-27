@@ -1,33 +1,17 @@
 [versions]
-android-plugins = "8.8.0"
-kotest = "6.0.0.M1"
-kotlin = "2.0.21"
-android-minSdk = "24"
 android-compileSdk = "34"
+android-minSdk = "24"
+android-plugins = "8.5.2"
+kotlin = "2.1.0"
 
 [libraries]
-kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
-kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
-kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5-jvm", version.ref = "kotest" }
-kotlin-test-common = { module = "org.jetbrains.kotlin:kotlin-test-common", version.ref = "kotlin" }
-kotlin-test-annotations-common = { module = "org.jetbrains.kotlin:kotlin-test-annotations-common", version.ref = "kotlin" }
-
-[bundles]
-kotest-common = [
-    "kotest-assertions-core",
-    "kotest-framework-engine",
-]
-kotlin-testing-common = [
-    "kotlin-test-common",
-    "kotlin-test-annotations-common",
-]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-plugins" }
-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
-kotest-multiplatform = { id = "io.kotest.multiplatform", version.ref = "kotest" }
 dokka = "org.jetbrains.dokka:2.0.0"
 gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:3.1.9"
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.77.0"
 publishOnCentral = "org.danilopianini.publish-on-central:6.0.0"
 taskTree = "com.dorongold.task-tree:4.0.0"
