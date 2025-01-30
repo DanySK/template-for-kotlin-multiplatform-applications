@@ -1,3 +1,18 @@
+## [1.0.4](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/compare/1.0.3...1.0.4) (2025-01-30)
+
+### Dependency updates
+
+* **deps:** update plugin publishoncentral to v8 ([deca677](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/deca67768c5799aa12bf566d443d216bfc0fc97e))
+
+### Documentation
+
+* update the website pointer ([b006438](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/b0064382e14621cc3fc4c26b25c8352bf1af4031))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.7 ([#90](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/90)) ([2710adc](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/2710adc80fca4dd293a89ad036f54fa76ad88216))
+* track the Gradle wrapper `distributionSha256Sum` ([d9a1ddd](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/d9a1ddd4f81107343d71176659e6246fbbf4bf4a))
+
 ## [1.0.3](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/compare/1.0.2...1.0.3) (2025-01-28)
 
 ### Dependency updates
