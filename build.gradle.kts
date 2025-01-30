@@ -155,7 +155,7 @@ publishOnCentral {
                         developer {
                             name.set("Danilo Pianini")
                             email.set("danilo.pianini@gmail.com")
-                            url.set("http://www.danilopianini.org/")
+                            url.set("https://danysk.github.io/")
                         }
                     }
                 }
