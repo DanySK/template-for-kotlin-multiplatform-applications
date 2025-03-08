@@ -14,4 +14,4 @@ gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:4
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.78.0"
 publishOnCentral = "org.danilopianini.publish-on-central:8.0.4"
-taskTree = "com.dorongold.task-tree:4.0.0"
+taskTree = "com.dorongold.task-tree:4.0.1"
