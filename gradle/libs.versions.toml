@@ -2,7 +2,7 @@
 android-compileSdk = "34"
 android-minSdk = "24"
 android-plugins = "8.9.0"
-kotlin = "2.1.10"
+kotlin = "2.1.20"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
