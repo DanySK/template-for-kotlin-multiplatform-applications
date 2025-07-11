@@ -1,3 +1,25 @@
+## [1.0.8](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/compare/1.0.7...1.0.8) (2025-07-11)
+
+### Dependency updates
+
+* **deps:** update dependency com.android.application to v8.11.0 ([#179](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/179)) ([d9b61ab](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/d9b61abe6d452d4a73eb60234f5bf4824e08307d))
+* **deps:** update dependency com.android.application to v8.11.1 ([#190](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/190)) ([a614af1](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/a614af1520d8e07d1f39c52774ee63e7c9097a85))
+* **deps:** update dependency gradle to v8.14.3 ([#187](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/187)) ([b8ce415](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/b8ce4150d81f10e5afd81a72813624b0077268f6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.134 ([#184](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/184)) ([1344b53](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/1344b5369393f0a1d6e40877d6993544da403d68))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.136 ([#186](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/186)) ([031c751](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/031c7512e7d46caaf5879d9b43d71ff2d7379fe4))
+* **deps:** update node.js to 22.17 ([#180](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/180)) ([41347c4](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/41347c46182b089ba9520359baf173ef39940fca))
+* **deps:** update plugin gitsemver to v5.1.5 ([#182](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/182)) ([939da98](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/939da98182f232ea68b9a2001e2a69acb71ac115))
+* **deps:** update plugin gitsemver to v5.1.7 ([#185](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/185)) ([909a09c](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/909a09c6d5a8acc5484391a1d8c563262e632457))
+* **deps:** update plugin kotlin-qa to v0.89.2 ([#177](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/177)) ([7075758](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/7075758a20a33fe21feb8be4e071ed9e521730d9))
+* **deps:** update plugin kotlin-qa to v0.90.0 ([#181](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/181)) ([fd37a41](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/fd37a41113f452b79382f1f8e8a49eb77400d22f))
+* **deps:** update plugin kotlin-qa to v0.90.1 ([#183](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/183)) ([4164d97](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/4164d979cacb71d1222d3dd896755f9f52384f27))
+* **deps:** update plugin kotlin-qa to v0.90.2 ([#188](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/188)) ([0dcbba6](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/0dcbba68fa78fee909a1439ddcef08f9dd223eb9))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.27 ([#178](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/issues/178)) ([93ba6ff](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/93ba6ff5fb389b20f2ede38f9f4d8d31eb851eb4))
+
+### Bug Fixes
+
+* **release:** migrate to Maven Central Portal ([cdd2e74](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/commit/cdd2e7488e4fa54045bafc77effd1f6f3b88213b))
+
 ## [1.0.7](https://github.com/DanySK/template-for-kotlin-multiplatform-applications/compare/1.0.6...1.0.7) (2025-06-23)
 
 ### Dependency updates
