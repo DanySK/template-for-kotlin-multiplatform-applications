@@ -1,7 +1,7 @@
 [versions]
 android-compileSdk = "34"
 android-minSdk = "24"
-android-plugins = "8.12.0"
+android-plugins = "8.12.1"
 kotlin = "2.2.10"
 
 [libraries]
